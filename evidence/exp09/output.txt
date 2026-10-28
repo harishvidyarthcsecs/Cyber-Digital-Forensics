@@ -1,0 +1,25 @@
+carrier.jpg:          JPEG image data, JFIF standard 1.01, aspect ratio, density 72x72, segment length 16, Exif Standard: [TIFF image data, big-endian, direntries=1], baseline, precision 8, 640x360, components 3
+combined.jpg:         JPEG image data, JFIF standard 1.01, aspect ratio, density 72x72, segment length 16, Exif Standard: [TIFF image data, big-endian, direntries=1], baseline, precision 8, 640x360, components 3
+extracted_secret.txt: ASCII text
+
+Byte counts:
+   24253 carrier.jpg
+      68 secret.txt
+   24321 combined.jpg
+      68 extracted_secret.txt
+   48710 total
+
+Comparison:
+cmp: secret.txt and extracted_secret.txt are identical
+
+SHA-256:
+66997201c68635b3340dc8dc174322d3915b3d22bb6f4d3de1cb81c5dc884e83  secret.txt
+66997201c68635b3340dc8dc174322d3915b3d22bb6f4d3de1cb81c5dc884e83  extracted_secret.txt
+
+Tail of combined JPEG:
+00005ea1: a0 02 8a 28 a0 02 8a 28 a0 02 8a 28 a0 02 8a 28  ...(...(...(...(
+00005eb1: a0 02 8a 28 a0 02 8a 28 a0 0f ff d9 53 79 6e 74  ...(...(....Synt
+00005ec1: 68 65 74 69 63 20 6c 61 62 20 73 65 63 72 65 74  hetic lab secret
+00005ed1: 3a 20 61 70 70 65 6e 64 65 64 20 63 61 72 72 69  : appended carri
+00005ee1: 65 72 20 64 61 74 61 20 72 65 63 6f 76 65 72 65  er data recovere
+00005ef1: 64 20 73 75 63 63 65 73 73 66 75 6c 6c 79 2e 0a  d successfully..

@@ -1,0 +1,15 @@
+--- original.txt	2026-10-28 10:40:49
++++ examined.txt	2026-10-28 10:41:53
+@@ -1,4 +1,4 @@
+ Incident reference: CDF-LAB-SAMPLE
+ Evidence item: training-note.txt
+ Status: collected
+-Finding: No anomaly recorded.
++Finding: No anomaly reported.
+
+   109 143 160
+   112 144 164
+
+SHA-256:
+35905b3a85d29eee533b83a6dbf37feb02f631083e404eaff9096558a14ec22e  original.txt
+0ec1994dd75f09ddcff447d0ab8f746626c6b299baaa827a79d9663a3a126958  examined.txt

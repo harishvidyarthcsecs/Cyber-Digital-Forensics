@@ -1,0 +1,3 @@
+sips -g all sample.jpg
+file sample.jpg
+shasum -a 256 sample.jpg

@@ -1,0 +1,7 @@
+cat carrier.jpg secret.txt > combined.jpg
+tail -c "$(wc -c < secret.txt)" combined.jpg > extracted_secret.txt
+file carrier.jpg combined.jpg extracted_secret.txt
+wc -c carrier.jpg secret.txt combined.jpg extracted_secret.txt
+cmp secret.txt extracted_secret.txt
+shasum -a 256 secret.txt extracted_secret.txt
+xxd -g 1 -s -96 combined.jpg

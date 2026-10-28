@@ -1,0 +1,4 @@
+Incident reference: CDF-LAB-SAMPLE
+Evidence item: training-note.txt
+Status: collected
+Finding: No anomaly reported.

@@ -1,0 +1,19 @@
+sample.jpg
+  pixelWidth: 640
+  pixelHeight: 360
+  typeIdentifier: public.jpeg
+  format: jpeg
+  formatOptions: default
+  dpiWidth: 72.000
+  dpiHeight: 72.000
+  samplesPerPixel: 3
+  bitsPerSample: 8
+  hasAlpha: no
+  space: RGB
+  profile: sRGB IEC61966-2.1
+
+File identification:
+sample.jpg: JPEG image data, JFIF standard 1.01, aspect ratio, density 72x72, segment length 16, Exif Standard: [TIFF image data, big-endian, direntries=1], baseline, precision 8, 640x360, components 3
+
+SHA-256:
+ad51262a244a2a78645f587d7b6f2828a1e63f4dec82073c87a5d4cb7e769559  sample.jpg

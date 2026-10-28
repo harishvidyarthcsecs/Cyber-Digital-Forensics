@@ -1,0 +1,3 @@
+diff -u original.txt examined.txt
+cmp -l original.txt examined.txt
+shasum -a 256 original.txt examined.txt
